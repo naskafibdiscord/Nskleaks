@@ -8,7 +8,7 @@ const {
 } = require('discord.js');
 
 const CONFIG_FILE = path.join(__dirname, 'config.json');
-const IMAGE_FILE = path.join(__dirname, 'assets', 'ticket.jpg');
+const IMAGE_FILE = path.join(__dirname, 'IMG_0903.jpeg');
 
 // ---------- Config (par serveur) ----------
 const loadConfig = () => (fs.existsSync(CONFIG_FILE) ? JSON.parse(fs.readFileSync(CONFIG_FILE, 'utf8')) : {});
